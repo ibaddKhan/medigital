@@ -4,9 +4,10 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        montserrat: ['Montserrat', 'serif'], // Add Montserrat with fallback to serif
+        montserrat: ['Montserrat', 'serif'],
+        raleway: ['raleway', 'serif'], // Use Outfit with a serif fallback
       },
     },
   },
   plugins: [],
-}
+};

@@ -48,3 +48,223 @@
   opacity: 1;
   max-height: 100px;
 }
+body {
+  margin: 0;
+  background-color: #fff4e9;
+}
+
+nav {
+  margin-top: 10px;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  cursor: pointer;
+}
+
+.nav-button {
+  border: 2px solid #572d29;
+  border-radius: 25px;
+  padding: 8px 16px;
+  color: #572d29;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+/* Menu Animation */ /* Initial Styles */
+.topnav {
+  position: absolute;
+  top: 60px;
+  right: 20px;
+  width: 0;
+  height: 0; /* Set initial height to 0 */
+  background-color: white;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: width 0.4s ease-in-out, height 0.6s ease-in-out, opacity 0.1s ease; /* Add height transition */
+  opacity: 0;
+  visibility: hidden;
+}
+
+.topnav.active {
+  width: 150px; /* Adjust as needed */
+  height: 222px; /* Adjust height as per your content */
+  opacity: 1;
+  visibility: visible;
+}
+.topnav.unactive {
+  width: 0; /* Adjust as needed */
+  height: 0; /* Adjust height as per your content */
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Menu Items */
+.topnav a {
+  padding: 10px;
+  text-decoration: none;
+  color: #572d29;
+  font-weight: 600;
+  display: block;
+  border-bottom: 1px solid #ddd;
+}
+
+.topnav a:last-child {
+  border-bottom: none;
+}
+
+.topnav a:hover {
+  background-color: #f5f5f5;
+}
+
+/* Hamburger Icon */
+.icon {
+  display: none;
+  cursor: pointer;
+  position: relative;
+  z-index: 2; /* Keep it above the menu */
+}
+
+.icon i {
+  transition: transform 0.3s ease;
+}
+
+/* Animation on Hamburger */
+.icon.open i {
+  transform: rotate(90deg);
+}
+
+/* Media Queries */
+
+/* From Uiverse.io by JaydipPrajapati1910 */
+#nav-btn {
+  background: transparent;
+  position: relative;
+  padding: 2px 3px;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+  border: 1px solid #572d29;
+  border-radius: 25px;
+  outline: none;
+  overflow: hidden;
+  color: #572d29;
+  transition: color 0.3s 0.1s ease-out;
+  text-align: center;
+}
+
+#nav-btn span {
+  margin: 5px;
+}
+
+#nav-btn::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  content: "";
+  border-radius: 50%;
+  display: block;
+  width: 20em;
+  height: 20em;
+  left: -6.7em;
+  text-align: center;
+  transition: box-shadow 0.5s ease-out;
+  z-index: -1;
+}
+
+#nav-btn:hover {
+  color: #fff;
+  border: 1px solid #572d29;
+}
+
+#nav-btn:hover::before {
+  box-shadow: inset 0 0 0 10em #572d29;
+}
+/* From Uiverse.io by JaydipPrajapati1910 */
+#nav-btn2 {
+  background: transparent;
+  position: relative;
+  padding: 2px 3px;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+  border: 1px solid #572d29;
+  border-radius: 25px;
+  outline: none;
+  overflow: hidden;
+  color: #572d29;
+  transition: color 0.3s 0.1s ease-out;
+  text-align: center;
+}
+
+#nav-btn2 span {
+  margin: 5px;
+}
+
+#nav-btn2::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  content: "";
+  border-radius: 50%;
+  display: block;
+  width: 20em;
+  height: 20em;
+  left: -6.7em;
+  text-align: center;
+  transition: box-shadow 0.5s ease-out;
+  z-index: -1;
+}
+
+#nav-btn2:hover {
+  color: #fff;
+  border: 1px solid #572d29;
+}
+
+#nav-btn2:hover::before {
+  box-shadow: inset 0 0 0 10em #572d29;
+}
+.animate__animated.animate__fadeInLeftBig {
+  --animate-duration: 0.7s;
+}
+@media screen and (max-width: 768px) {
+  .nav-links,
+  #nav-btn,
+  .nav-button {
+    display: none;
+  }
+
+  .icon {
+    display: block;
+  }
+
+  .topnav.active {
+    width: 200px; /* Full width of the menu when expanded */
+    opacity: 1;
+    visibility: visible;
+  }
+}
