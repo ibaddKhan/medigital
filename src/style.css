@@ -1,18 +1,16 @@
 .services-container {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 40px;
   justify-content: center;
   align-items: flex-start;
 }
 
 .service-card {
-  width: 200px;
-  height: 150px;
+  width: 250px;
+  height: 350px;
   background-color: #f4f4f4;
-  border: 1px solid #ccc;
   border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   position: relative;
   transition: all 2s ease;
@@ -48,11 +46,58 @@
   opacity: 1;
   max-height: 100px;
 }
-body {
-  margin: 0;
-  background-color: #fff4e9;
+
+#card-1 {
+  background-color: #ff854b;
+}
+#card-2 {
+  background-color: #572d29;
+}
+#card-3 {
+  background-color: #43a574;
+}
+#card-4 {
+  background-color: #ffd15c;
 }
 
+.service-card.expanded {
+  transform: scale(1.2);
+  width: 300px;
+  z-index: 10;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.service-card.expanded .details {
+  opacity: 1;
+  max-height: 100px;
+}
+
+/* Disable expansion on phones */
+@media (max-width: 768px) {
+  .service-card {
+    transform: scale(1) !important;
+    width: 250px !important;
+    z-index: auto !important;
+    box-shadow: none !important;
+    transition: none;
+  }
+
+  .service-card .details {
+    opacity: 0;
+    max-height: 0;
+  }
+
+  .service-card:hover {
+    transform: none;
+  }
+}
+
+body {
+  margin: 0;
+}
+#first-container {
+  margin-top: -9px;
+}
 nav {
   margin-top: 10px;
   font-family: "Montserrat", sans-serif;
@@ -146,9 +191,6 @@ nav {
   transform: rotate(90deg);
 }
 
-/* Media Queries */
-
-/* From Uiverse.io by JaydipPrajapati1910 */
 #nav-btn {
   background: transparent;
   position: relative;
@@ -170,8 +212,13 @@ nav {
 
 #nav-btn span {
   margin: 5px;
+  position: relative; /* Ensures the span can participate in stacking */
+  z-index: 2;
 }
-
+#nav-btn span:hover {
+  position: relative;
+  z-index: 3; /* Higher than the pseudo-element */
+}
 #nav-btn::before {
   position: absolute;
   top: 0;
@@ -187,7 +234,7 @@ nav {
   left: -6.7em;
   text-align: center;
   transition: box-shadow 0.5s ease-out;
-  z-index: -1;
+  z-index: 0;
 }
 
 #nav-btn:hover {
@@ -198,7 +245,7 @@ nav {
 #nav-btn:hover::before {
   box-shadow: inset 0 0 0 10em #572d29;
 }
-/* From Uiverse.io by JaydipPrajapati1910 */
+
 #nav-btn2 {
   background: transparent;
   position: relative;
@@ -209,7 +256,8 @@ nav {
   font-weight: 600;
   text-decoration: none;
   cursor: pointer;
-  border: 1px solid #572d29;
+  background-color: #ffd15c;
+  border: 1px solid #ffd15c;
   border-radius: 25px;
   outline: none;
   overflow: hidden;
@@ -240,14 +288,6 @@ nav {
   z-index: -1;
 }
 
-#nav-btn2:hover {
-  color: #fff;
-  border: 1px solid #572d29;
-}
-
-#nav-btn2:hover::before {
-  box-shadow: inset 0 0 0 10em #572d29;
-}
 .animate__animated.animate__fadeInLeftBig {
   --animate-duration: 0.7s;
 }
@@ -267,4 +307,10 @@ nav {
     opacity: 1;
     visibility: visible;
   }
+}
+.fading-effect span {
+  opacity: 0.5;
+  background: linear-gradient(to bottom, #572d29 60%, rgba(87, 45, 41, 0) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
