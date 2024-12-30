@@ -1,3 +1,179 @@
+/* :root {
+  --primary-color: #1d4d5e;
+  --primary-white: #ffffff;
+  --secondary-color: #62a8b5;
+  --accent-color: #46b8a0;
+  --background-color: #f4f9fb;
+  --text-color: #2f3a45;
+  --border-color: #d1e6f1;
+  --muted-text-color: #8a9ba8;
+  --hover-color: #e2f1f4;
+  --card-bg-color-1: #62a8b5;
+  --card-bg-color-2: #1d4d5e;
+  --card-bg-color-3: #46b8a0;
+  --card-bg-color-4: #ffffff;
+} */
+/* :root {
+  --primary-color: #2d6fac;
+  --primary-white: #ffff;
+  --secondary-color: #f0f8ff;
+  --accent-color: #43a574;
+  --background-color: #f0f8ff;
+  --text-color: #333333;
+  --border-color: #cccccc;
+  --muted-text-color: #999999;
+  --hover-color: #e0e0e0;
+  --card-bg-color-1: #43a574;
+  --card-bg-color-2: #f0f8ff;
+  --card-bg-color-3: #eb5a5a;
+  --card-bg-color-4: #f5f5f5;
+} */
+/* :root {
+  --primary-color: #007bff;
+  --primary-white: #ffffff;
+  --secondary-color: #8bc34a;
+  --accent-color: #17a2b8;
+  --background-color: #f7f7f7;
+  --text-color: #333333;
+  --border-color: #ddd;
+  --muted-text-color: #999999;
+  --hover-color: #f2f2f2;
+  --card-bg-color-1: #17a2b8;
+  --card-bg-color-2: #8bc34a;
+  --card-bg-color-3: #007bff;
+  --card-bg-color-4: #f7f7f7;
+} */
+:root {
+  --primary-color: #2b4c7e;
+  --primary-white: #ffffff;
+  --secondary-color: #88c8bc;
+  --accent-color: #1e88e5;
+  --background-color: #f8fbff;
+  --text-color: #2d3663;
+  --border-color: #2b4c7e;
+  --muted-text-color: #6e7891;
+  --hover-color: #f0f7ff;
+  --card-bg-color-1: #1e88e5;
+  --card-bg-color-2: #2b4c7e;
+  --card-bg-color-3: #88c8bc;
+  --card-bg-color-4: #4fb3d9;
+}
+/* :root {
+  --primary-color: #1f6a99;
+  --primary-white: #ffffff;
+  --secondary-color: #00aaff;
+  --accent-color: #00c5bb;
+  --background-color: #e8f9f9;
+  --text-color: #1f6a99;
+  --border-color: #00aaff;
+  --muted-text-color: #8c8c8c;
+  --hover-color: #e1f4f8;
+  --card-bg-color-1: #00c5bb;
+  --card-bg-color-2: #1f6a99;
+  --card-bg-color-3: #6b9e5a;
+  --card-bg-color-4: #00aaff;
+} */
+/* :root {
+  --primary-color: #4a90e2;
+  --primary-white: #ffffff;
+  --secondary-color: #98d9e1;
+  --accent-color: #ff686b;
+  --background-color: #f0f7fa;
+  --text-color: #4a90e2;
+  --border-color: #ff686b;
+  --muted-text-color: #d1e3e6;
+  --hover-color: #f7f9fa;
+  --card-bg-color-1: #ff686b;
+  --card-bg-color-2: #4a90e2;
+  --card-bg-color-3: #43a574;
+  --card-bg-color-4: #98d9e1;
+} */
+/* :root {
+  --primary-color: #032b44;
+  --primary-white: #ffffff;
+  --secondary-color: #8bc34a;
+  --accent-color: #2196f3;
+  --background-color: #f7f7f7;
+  --text-color: #333333;
+  --border-color: #032b44;
+  --muted-text-color: #777777;
+  --hover-color: #e0e0e0;
+  --card-bg-color-1: #2196f3;
+  --card-bg-color-2: #8bc34a;
+  --card-bg-color-3: #03a9f4;
+  --card-bg-color-4: #4caf50;
+} */
+/* :root {
+  --primary-color: #2e865f;
+  --primary-white: #ffffff;
+  --secondary-color: #f7dc6f;
+  --accent-color: #8bc34a;
+  --background-color: #f2f2f2;
+  --text-color: #333333;
+  --border-color: #2e865f;
+  --muted-text-color: #777777;
+  --hover-color: #e5e5e5;
+  --card-bg-color-1: #8bc34a;
+  --card-bg-color-2: #4caf50;
+  --card-bg-color-3: #3e8e41;
+  --card-bg-color-4: #c6e2b5;
+} */
+/* :root {
+  --primary-color: #2b4c7e;
+  --primary-white: #ffffff;
+  --secondary-color: #88c4e8;
+  --accent-color: #4a90a0;
+  --background-color: #f5f9ff;
+  --text-color: #2b4c7e;
+  --border-color: #2b4c7e;
+  --muted-text-color: #9db5d6;
+  --hover-color: #e8f1f9;
+  --card-bg-color-1: #4a90a0;
+  --card-bg-color-2: #2b4c7e;
+  --card-bg-color-3: #29b6f6;
+  --card-bg-color-4: #88c4e8;
+} */
+/* :root {
+  --primary-color: #1a5f7a;
+  --primary-white: #ffffff;
+  --secondary-color: #64dfdf;
+  --accent-color: #00b4d8;
+  --background-color: #f8fdff;
+  --text-color: #1a5f7a;
+  --border-color: #1a5f7a;
+  --muted-text-color: #80c2d7;
+  --hover-color: #e6f8fb;
+  --card-bg-color-1: #00b4d8;
+  --card-bg-color-2: #1a5f7a;
+  --card-bg-color-3: #48cae4;
+  --card-bg-color-4: #64dfdf;
+} */
+#first-container {
+  background-color: var(--background-color);
+}
+.text-color-primary {
+  color: var(--text-color);
+}
+.text-color-white {
+  color: var(--primary-white);
+}
+.text-color-secondary {
+  color: var(--accent-color);
+}
+.bg-primary-container {
+  background-color: var(--primary-color);
+}
+#list-span {
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+}
+#comparison-div-h {
+  color: var(--background-color);
+}
+#lower-section {
+  color: var(--primary-white);
+}
+
 .services-container {
   display: flex;
   flex-wrap: wrap;
@@ -9,7 +185,7 @@
 .service-card {
   width: 250px;
   height: 350px;
-  background-color: #f4f4f4;
+  background-color: var(--card-bg-color-1);
   border-radius: 8px;
   overflow: hidden;
   position: relative;
@@ -48,16 +224,16 @@
 }
 
 #card-1 {
-  background-color: #ff854b;
+  background-color: var(--card-bg-color-1);
 }
 #card-2 {
-  background-color: #572d29;
+  background-color: var(--card-bg-color-2);
 }
 #card-3 {
-  background-color: #43a574;
+  background-color: var(--card-bg-color-3);
 }
 #card-4 {
-  background-color: #ffd15c;
+  background-color: var(--card-bg-color-4);
 }
 
 .service-card.expanded {
@@ -120,10 +296,10 @@ nav {
 }
 
 .nav-button {
-  border: 2px solid #572d29;
+  border: 2px solid var(--primary-color);
   border-radius: 25px;
   padding: 8px 16px;
-  color: #572d29;
+  color: var(--primary-color);
   background-color: transparent;
   cursor: pointer;
 }
@@ -135,7 +311,7 @@ nav {
   right: 20px;
   width: 0;
   height: 0; /* Set initial height to 0 */
-  background-color: white;
+  background-color: var(--primary-white);
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   transition: width 0.4s ease-in-out, height 0.6s ease-in-out, opacity 0.1s ease; /* Add height transition */
@@ -160,7 +336,7 @@ nav {
 .topnav a {
   padding: 10px;
   text-decoration: none;
-  color: #572d29;
+  color: var(--text-color);
   font-weight: 600;
   display: block;
   border-bottom: 1px solid #ddd;
@@ -171,7 +347,7 @@ nav {
 }
 
 .topnav a:hover {
-  background-color: #f5f5f5;
+  background-color: var(--hover-color);
 }
 
 /* Hamburger Icon */
@@ -201,11 +377,11 @@ nav {
   font-weight: 600;
   text-decoration: none;
   cursor: pointer;
-  border: 1px solid #572d29;
+  border: 1px solid var(--border-color);
   border-radius: 25px;
   outline: none;
   overflow: hidden;
-  color: #572d29;
+  color: var(--text-color);
   transition: color 0.3s 0.1s ease-out;
   text-align: center;
 }
@@ -238,12 +414,12 @@ nav {
 }
 
 #nav-btn:hover {
-  color: #fff;
-  border: 1px solid #572d29;
+  color: var(--primary-white);
+  border: 1px solid var(--primary-color);
 }
 
 #nav-btn:hover::before {
-  box-shadow: inset 0 0 0 10em #572d29;
+  box-shadow: inset 0 0 0 10em var(--border-color);
 }
 
 #nav-btn2 {
@@ -256,12 +432,12 @@ nav {
   font-weight: 600;
   text-decoration: none;
   cursor: pointer;
-  background-color: #ffd15c;
-  border: 1px solid #ffd15c;
+  background-color: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
   border-radius: 25px;
   outline: none;
   overflow: hidden;
-  color: #572d29;
+  color: var(--text-color);
   transition: color 0.3s 0.1s ease-out;
   text-align: center;
 }
@@ -310,7 +486,11 @@ nav {
 }
 .fading-effect span {
   opacity: 0.5;
-  background: linear-gradient(to bottom, #572d29 60%, rgba(87, 45, 41, 0) 100%);
+  background: linear-gradient(
+    to bottom,
+    var(--text-color) 60%,
+    rgba(87, 45, 41, 0) 100%
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
